@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1>Fight Club Registration!</h1>
+    <form action="">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required />
+      <p></p>
+      <p>Select the type of fighting:</p>
+      <div>
+        <input
+          type="radio"
+          id="karate"
+          name="fighting_type"
+          value="Karate"
+          value="Karate"
+        />
+        <label for="karate">Karate</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          id="boxing"
+          name="fighting_type"
+          value="Boxing"
+          value="Box"
+        />
+        <label for="boxing">Boxing</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          id="wrestling"
+          name="fighting_type"
+          value="Wrestling"
+          value="Wrestling"
+        />
+        <label for="wrestling">Wrestling</label>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="pas">Password:</label>
+        <input type="password" name="passw" id="pas" required />
+      </div>
+
+      <div>
+        <label for="division">Select age Group:</label>
+        <select name="age" id="division">
+          <option value="junior">Under 18</option>
+          <option value="adult">18-40</option>
+          <option value="senior">40+</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
